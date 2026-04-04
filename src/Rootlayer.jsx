@@ -4,8 +4,9 @@ import { NavBar } from './component/NavBar'
 export const Rootlayer = () => {
   return (
     <div>
+   
         <NavBar />
-        <Outlet />
+           <Outlet />
     </div>
   )
 }

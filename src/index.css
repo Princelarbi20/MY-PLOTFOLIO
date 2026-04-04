@@ -1,1 +1,19 @@
 @import "tailwindcss";
+h1{
+      font-family: "Archivo Black", sans-serif;
+}
+p{
+ font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+
+}
+button{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+nav{
+   font-family: "Poppins", sans-serif;
+  font-weight: 700; 
+}

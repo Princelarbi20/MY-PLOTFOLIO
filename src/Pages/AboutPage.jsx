@@ -2,6 +2,13 @@ import React from 'react'
 
 export const AboutPage = () => {
   return (
-    <div>AboutPage</div>
+    <div className='h-screen w-full'>
+        <div>
+          {/*side image */}
+          <div>
+            
+          </div>
+        </div>
+    </div>
   )
 }

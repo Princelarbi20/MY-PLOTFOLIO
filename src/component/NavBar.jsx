@@ -52,7 +52,7 @@ export const NavBar = () => {
 
       {/* Mobile Menu */}
       <div>
-        <ul className={` ${show ? "flex" : "hidden"} flex flex-col gap-10 list-none md:gap-20 absolute bg-blue-200 w-full`}>
+        <ul className={` ${show ? "flex" : "hidden"} flex flex-col gap-6 list-none md:gap-20 absolute bg-blue-200 w-full p-6`}>
               {NavData.map(({ name, path }) => (
                 <li key={path}>
                   <NavLink 
