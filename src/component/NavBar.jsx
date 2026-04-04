@@ -10,7 +10,7 @@ export const NavBar = () => {
 
   return (
     <>
-      <nav  className='bg-green-400 p-4 text-white'>
+      <nav className="bg-transparent fixed top-0 left-0 w-full p-4 text-white z-50">
         <div className="flex justify-between items-center">
 
           {/* Logo */}
@@ -51,8 +51,8 @@ export const NavBar = () => {
       </nav>
 
       {/* Mobile Menu */}
-      <div>
-        <ul className={` ${show ? "flex" : "hidden"} flex flex-col gap-6 list-none md:gap-20 absolute bg-blue-200 w-full p-6`}>
+      <div className="  ">
+        <ul className={` ${show ? "flex" : "hidden"} flex flex-col gap-6 list-none md:gap-20 absolute bg-blue-200 w-full p-6 fixed w-full text-white pt-20`}>
               {NavData.map(({ name, path }) => (
                 <li key={path}>
                   <NavLink 

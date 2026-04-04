@@ -17,3 +17,12 @@ nav{
    font-family: "Poppins", sans-serif;
   font-weight: 700; 
 }
+body{
+ background: radial-gradient(circle at 75% 30%, #ff6a00 0%, transparent 40%),
+            linear-gradient(135deg, #0f0c29, #302b63, #ff5f00);
+}
+h2{
+   font-family: "Archivo Black", sans-serif;
+   font-weight: 600;
+   font-style: italic;
+}

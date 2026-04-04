@@ -1,8 +1,8 @@
 import React from 'react'
-
-export const ProjectCard = () => {
+ import './Component.css'
+export const ProjectCard = ({children}) => {
   return (
-    <div>ProjectCard</div>
+    <div className='container'>{children}</div>
   )
 }
 
